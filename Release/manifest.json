@@ -1,0 +1,30 @@
+{
+  "name": "6eeks List",
+  "description": "6eeks List",
+  "version": "1.0.3",
+  "manifest_version": 3,
+
+  "action": {
+    "default_icon": "logo.png",
+    "default_popup": "menu.html"
+  },
+
+  "host_permissions": [
+    "https://*/*"
+  ],
+
+  "permissions": [
+    "cookies"
+  ],
+
+  "background": {
+    "service_worker": "code.js"
+  },
+
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  }
+}
